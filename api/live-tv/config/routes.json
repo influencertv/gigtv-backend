@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/live-tv",
+      "handler": "live-tv.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/live-tv",
+      "handler": "live-tv.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/live-tv",
+      "handler": "live-tv.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

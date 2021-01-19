@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/breaking-news",
+      "handler": "breaking-news.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/breaking-news",
+      "handler": "breaking-news.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/breaking-news",
+      "handler": "breaking-news.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

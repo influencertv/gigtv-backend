@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_live_tv_live_nows",
+  "info": {
+    "name": "LiveNow",
+    "icon": "dot-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "videoId": {
+      "type": "string",
+      "required": true,
+      "default": "test"
+    },
+    "youtubeVideoId": {
+      "type": "string"
+    }
+  }
+}

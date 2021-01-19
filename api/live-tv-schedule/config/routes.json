@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/live-tv-schedule/tv",
+      "handler": "Custom.liveNow"
+    }
+  ]
+}

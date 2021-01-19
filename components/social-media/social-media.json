@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_social_media_social_medias",
+  "info": {
+    "name": "socialMedia",
+    "icon": "share-alt"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "kingschat": {
+      "type": "string"
+    }
+  }
+}

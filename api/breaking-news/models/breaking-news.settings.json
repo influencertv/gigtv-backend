@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "breaking_news",
+  "info": {
+    "name": "Breaking News"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.text"
+    }
+  }
+}

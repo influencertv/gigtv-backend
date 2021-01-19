@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_news_texts",
+  "info": {
+    "name": "text",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

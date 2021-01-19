@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_navigation_navigation_items",
+  "info": {
+    "name": "NavigationItem",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

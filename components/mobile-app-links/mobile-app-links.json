@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_mobile_app_links_mobile_app_links",
+  "info": {
+    "name": "MobileAppLinks",
+    "icon": "mobile-alt"
+  },
+  "options": {},
+  "attributes": {
+    "appStore": {
+      "type": "string"
+    },
+    "googlePlay": {
+      "type": "string"
+    }
+  }
+}

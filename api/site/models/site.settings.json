@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "sites",
+  "info": {
+    "name": "site"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "siteNavigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigation-item"
+    },
+    "quickLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigation-item"
+    },
+    "footerLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigation-item"
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "social-media.social-media"
+    },
+    "mobileAppLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mobile-app-links.mobile-app-links"
+    }
+  }
+}

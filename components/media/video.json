@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_media_videos",
+  "info": {
+    "name": "Video",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "videoFile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "time": {
+      "type": "time",
+      "required": true
+    },
+    "duration": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

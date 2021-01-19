@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_live_tv_day_schedules",
+  "info": {
+    "name": "DaySchedule",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.video"
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

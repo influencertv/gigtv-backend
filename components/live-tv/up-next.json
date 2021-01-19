@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_live_tv_up_nexts",
+  "info": {
+    "name": "UpNext",
+    "icon": "tv"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "datetime": {
+      "type": "datetime",
+      "required": true
+    },
+    "duration": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
